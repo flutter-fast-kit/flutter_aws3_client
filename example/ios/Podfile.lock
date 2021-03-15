@@ -1,0 +1,40 @@
+PODS:
+  - AWSCore (2.19.1)
+  - AWSS3 (2.19.1):
+    - AWSCore (= 2.19.1)
+  - Flutter (1.0.0)
+  - flutter_aws_s3_client (0.0.1):
+    - AWSCore
+    - AWSS3
+    - Flutter
+  - image_picker (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_aws_s3_client (from `.symlinks/plugins/flutter_aws_s3_client/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AWSCore
+    - AWSS3
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_aws_s3_client:
+    :path: ".symlinks/plugins/flutter_aws_s3_client/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+
+SPEC CHECKSUMS:
+  AWSCore: 55c154ae27efc5c98bdc30a0eeea5a35d10a2ab5
+  AWSS3: 2272253b098d07803af8dd20ce6ce7302bcffb47
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_aws_s3_client: 3fb8ff6b766ad5b24f6f377344a9d152f846c39f
+  image_picker: 9c3312491f862b28d21ecd8fdf0ee14e601b3f09
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.9.3
