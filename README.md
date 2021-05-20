@@ -190,7 +190,7 @@ AwsS3UploadFile
 | filePath | 文件路径          | true  | Null   |
 | options  | AwsS3RetryOptions | False |        |
 
-AwsS3RetryOptions
+AwsS3RetryOptions 
 
 | 参数                | 描述         | 必须  | 默认值                            |
 | ------------------- | ------------ | ----- | --------------------------------- |
